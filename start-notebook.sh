@@ -1,0 +1,1 @@
+sudo docker run --rm --user 1001 --group-add users -p 8888:8888 -v "$PWD":/home/jovyan/work -it jupyter-tutorial
